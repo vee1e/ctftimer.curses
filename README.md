@@ -11,8 +11,10 @@ A terminal-based interactive calculator to compute a custom CTFtime **team ratin
 ## Formula
 
 $$
-\text{points\_coef} = \frac{\text{team\_points}}{\text{best\_points}} \\
-\text{place\_coef} = \frac{1}{\text{team\_place}} \\
+\text{points\_coef} = \frac{\text{team\_points}}{\text{best\_points}}
+
+\text{place\_coef} = \frac{1}{\text{team\_place}}
+
 \text{rating} = (\text{points\_coef} + \text{place\_coef}) \times \text{weight} \div \left( \frac{1}{1 + \frac{\text{team\_place}}{\text{total\_teams}}} \right)
 $$
 
