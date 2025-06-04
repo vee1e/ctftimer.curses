@@ -11,27 +11,37 @@ A terminal-based interactive calculator to compute a custom CTFtime **team ratin
 ## Formula
 
 $$
-\text{points\_coef} = \frac{\text{team\_points}}{\text{best\_points}} \\
-\text{place\_coef} = \frac{1}{\text{team\_place}} \\
-\text{rating} = (\text{points\_coef} + \text{place\_coef}) \times \text{weight} \div \left( \frac{1}{1 + \frac{\text{team\_place}}{\text{total\_teams}}} \right)
+\text{points-coef} = \frac{\text{team-points}}{\text{best-points}}
+$$
+
+$$
+\text{place-coef} = \frac{1}{\text{team-place}}
+$$
+
+$$
+\text{rating} = (\text{points-coef} + \text{place-coef}) \times \text{weight} \div \left( \frac{1}{1 + \frac{\text{team-place}}{\text{total-teams}}} \right)
 $$
 
 
 ## Inputs
 
-- **Weight** (float)
-- **Total Teams** (int)
-- **Best Points** (float)
-- **Team Place** (int)
-- **Team Points** (float)
+| Input         | Type  |
+|---------------|-------|
+| Weight        | float |
+| Total Teams   | int   |
+| Best Points   | float |
+| Team Place    | int   |
+| Team Points   | float |
 
 ## Controls
 
-- **↑ / ↓**: Navigate fields
-- **Tab / Shift+Tab**: Cycle through fields
-- **Type**: Directly edit fields
-- **Backspace / Delete**: Modify input
-- **ESC**: Exit
+| Key/Action           | Function               |
+|----------------------|------------------------|
+| ↑ / ↓                | Navigate fields        |
+| Tab / Shift+Tab      | Cycle through fields   |
+| Type                 | Directly edit fields   |
+| Backspace / Delete   | Modify input           |
+| ESC                  | Exit                   |
 
 ## Requirements
 

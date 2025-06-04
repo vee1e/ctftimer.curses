@@ -26,7 +26,6 @@ def main(stdscr):
    selected_idx = 0
    field_edited = [False, False, False, False, False]  # Track if a field has been edited
 
-   field_types = [float, int, float, int, float]  # Types for each field
    labels = ["Weight", "Total Teams", "Best Points", "Team Place", "Team Points"]
 
    while True:
