@@ -25,19 +25,23 @@ $$
 
 ## Inputs
 
-- **Weight** (float)
-- **Total Teams** (int)
-- **Best Points** (float)
-- **Team Place** (int)
-- **Team Points** (float)
+| Input         | Type  |
+|---------------|-------|
+| Weight        | float |
+| Total Teams   | int   |
+| Best Points   | float |
+| Team Place    | int   |
+| Team Points   | float |
 
 ## Controls
 
-- **↑ / ↓**: Navigate fields
-- **Tab / Shift+Tab**: Cycle through fields
-- **Type**: Directly edit fields
-- **Backspace / Delete**: Modify input
-- **ESC**: Exit
+| Key/Action           | Function               |
+|----------------------|------------------------|
+| ↑ / ↓                | Navigate fields        |
+| Tab / Shift+Tab      | Cycle through fields   |
+| Type                 | Directly edit fields   |
+| Backspace / Delete   | Modify input           |
+| ESC                  | Exit                   |
 
 ## Requirements
 
