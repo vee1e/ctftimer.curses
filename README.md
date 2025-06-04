@@ -1,6 +1,6 @@
 # ctftimer.curses
 
-A terminal-based interactive calculator to compute a custom **team rating** using a weighted formula. Built with Python and `curses`.
+A terminal-based interactive calculator to compute a custom CTFtime **team rating** using a weighted formula. Built with Python and `curses`.
 
 ## Features
 
